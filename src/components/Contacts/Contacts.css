@@ -1,0 +1,18 @@
+.contacts {
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.social {
+  margin: 20px
+}
+
+.social-description {
+  text-decoration: none;
+}
+
+.social-description span{
+  margin-left: 10px;
+};
+

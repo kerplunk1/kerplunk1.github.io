@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 0px;
+  margin-bottom: 15px;
+}
+
+.hello {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo {
+  width: 70px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
