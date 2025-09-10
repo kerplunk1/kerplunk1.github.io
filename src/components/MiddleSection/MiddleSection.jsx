@@ -1,8 +1,9 @@
 import ExperienceDetails from "../ExperienceDetails/ExperienceDetails";
 import Contacts from "../Contacts/Contacts";
+import AboutMe from "../AboutMe/AboutMe";
 import Tabs from "../Tabs/Tabs";
 import { useState } from "react";
-import AboutMe from "../AboutMe/AboutMe";
+
 
 export default function MiddleSection() {
   const [activeTab, setActiveTab] = useState("about");
@@ -12,7 +13,7 @@ export default function MiddleSection() {
       case "about":
         return <AboutMe />;
       case "experience":
-        return <ExperienceDetails />
+        return <ExperienceDetails />;
       case "contacts":
         return <Contacts />;
     }
